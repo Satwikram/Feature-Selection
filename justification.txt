@@ -1,0 +1,27 @@
+The KNN algorithm can compete with the most accurate models because it makes highly accurate predictions. Therefore, you can use the KNN algorithm for applications that require high accuracy but that do not require a human-readable model. The quality of the predictions depends on the distance measure.
+
+What are the advantages of KNN ? Can learn non-linear decision boundaries when used for classfication and regression. Can came up with a highly flexible decision boundary adjusting the value of K.
+
+SVM works relatively well when there is a clear margin of separation between classes. SVM is more effective in high dimensional spaces. SVM is effective in cases where the number of dimensions is greater than the number of samples. SVM is relatively memory efficient.
+
+Support vector machine works comparably well when there is an understandable margin of dissociation between classes. It is more productive in high dimensional spaces. It is effective in instances where the number of dimensions is larger than the number of specimens.
+
+why pearson correlation coefficient best for feature selection?
+
+Features with high correlation are more linearly dependent and hence have almost the same effect on the dependent variable. So, when two features have high correlation, we can drop one of the two features.
+
+You should use the Pearson correlation coefficient when (1) the relationship is linear and (2) both variables are quantitative and (3) normally distributed and (4) have no outliers.
+
+L2 regularization be used for feature selection?
+
+So while L2 regularization does not perform feature selection the same way as L1 does, it is more useful for feature *interpretation*: a predictive feature will get a non-zero coefficient, which is often not the case with L1.
+
+L2 regularization optimizes the mean cost (whereas L1 reduces the median explanation) which is often used as a performance measurement. This is especially good if you know you don't have any outliers and you want to keep the overall error small. The solution is more likely to be unique.
+
+Why LOOCV method is best compared to others?
+
+Given the improved estimate of model performance, LOOCV is appropriate when an accurate estimate of model performance is critical. This particularly case when the dataset is small, such as less than thousands of examples, can lead to model overfitting during training and biased estimates of model performance.
+
+An important factor when choosing between the k-fold and the LOO cross-validation methods is the size of the dataset. When the size is small, LOO is more appropriate since it will use more training samples in each iteration. That will enable our model to learn better representations.
+
+The advantage of LOOCV over Random Selection is zero randomness. Besides, the bias will also be lower as the model is trained on the entire dataset, which consequently will not overestimate the test error rate. 
